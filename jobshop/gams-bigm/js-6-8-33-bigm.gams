@@ -1,0 +1,510 @@
+VARIABLES 	T1, T2, T3, T4, T5, T6, Z, P;
+EQUATIONS
+equ1x0x0, equ2x0x1, 
+equ3x1x0, equ4x1x1, 
+equ5x2x0, equ6x2x1, 
+equ7x3x0, equ8x3x1, 
+equ9x4x0, equ10x4x1, 
+equ11x5x0, equ12x5x1, 
+equ13x6x0, equ14x6x1, 
+equ15x7x0, equ16x7x1, 
+equ17x8x0, equ18x8x1, 
+equ19x9x0, equ20x9x1, 
+equ21x10x0, equ22x10x1, 
+equ23x11x0, equ24x11x1, 
+equ25x12x0, equ26x12x1, 
+equ27x13x0, equ28x13x1, 
+equ29x14x0, equ30x14x1, 
+equ31x15x0, equ32x15x1, 
+equ33x16x0, equ34x16x1, 
+equ35x17x0, equ36x17x1, 
+equ37x18x0, equ38x18x1, 
+equ39x19x0, equ40x19x1, 
+equ41x20x0, equ42x20x1, 
+equ43x21x0, equ44x21x1, 
+equ45x22x0, equ46x22x1, 
+equ47x23x0, equ48x23x1, 
+equ49x24x0, equ50x24x1, 
+equ51x25x0, equ52x25x1, 
+equ53x26x0, equ54x26x1, 
+equ55x27x0, equ56x27x1, 
+equ57x28x0, equ58x28x1, 
+equ59x29x0, equ60x29x1, 
+equ61x30x0, equ62x30x1, 
+equ63x31x0, equ64x31x1, 
+equ65x32x0, equ66x32x1, 
+equ67x33x0, equ68x33x1, 
+equ69x34x0, equ70x34x1, 
+equ71x35x0, equ72x35x1, 
+equ73x36x0, equ74x36x1, 
+equ75x37x0, equ76x37x1, 
+equ77x38x0, equ78x38x1, 
+equ79x39x0, equ80x39x1, 
+equ81x40x0, equ82x40x1, 
+equ83x41x0, equ84x41x1, 
+equ85x42x0, equ86x42x1, 
+equ87x43x0, equ88x43x1, 
+equ89x44x0, equ90x44x1, 
+equ91x45x0, equ92x45x1, 
+equ93x46x0, equ94x46x1, 
+equ95x47x0, equ96x47x1, 
+equ97x48x0, equ98x48x1, 
+equ99x49x0, equ100x49x1, 
+equ101x50x0, equ102x50x1, 
+equ103x51x0, equ104x51x1, 
+equ105x52x0, equ106x52x1, 
+equ107x53x0, equ108x53x1, 
+equ109x54x0, equ110x54x1, 
+equ111x55x0, equ112x55x1, 
+equ113x56x0, equ114x56x1, 
+equ115x57x0, equ116x57x1, 
+equ117x58x0, equ118x58x1, 
+equ119x59x0, equ120x59x1, 
+equ121x60x0, equ122x60x1, 
+equ123x61x0, equ124x61x1, 
+equ125x62x0, equ126x62x1, 
+equ127x63x0, equ128x63x1, 
+equ129x64x0, equ130x64x1, 
+equ131x65x0, equ132x65x1, 
+equ133x66x0, equ134x66x1, 
+equ135x67x0, equ136x67x1, 
+equ137x68x0, equ138x68x1, 
+equ139x69x0, equ140x69x1, 
+equ141x70x0, equ142x70x1, 
+equ143x71x0, equ144x71x1, 
+equ145x72x0, equ146x72x1, 
+equ147x73x0, equ148x73x1, 
+equ149x74x0, equ150x74x1, 
+equ151x75x0, equ152x75x1, 
+equ153x76x0, equ154x76x1, 
+equ155x77x0, equ156x77x1, 
+equ157x78x0, equ158x78x1, 
+equ159x79x0, equ160x79x1, 
+equ161x80x0, equ162x80x1, 
+equ163x81x0, equ164x81x1, 
+equ165x82x0, equ166x82x1, 
+equ167x83x0, equ168x83x1, 
+equ169x84x0, equ170x84x1, 
+equ171x85x0, equ172x85x1, 
+equ173x86x0, equ174x86x1, 
+equ175x87x0, equ176x87x1, 
+equ177x88x0, equ178x88x1, 
+equ179x89x0, equ180x89x1, 
+equ181x90x0, equ182x90x1, 
+equ183x91x0, equ184x91x1, 
+equ185x92x0, equ186x92x1, 
+equ187x93x0, equ188x93x1, 
+equ189x94x0, equ190x94x1, 
+equ191x95x0, equ192x95x1, 
+equ193x96x0, equ194x96x1, 
+equ195x97x0, equ196x97x1, 
+equ197x98x0, equ198x98x1, 
+equ199x99x0, equ200x99x1, 
+equ201x100x0, equ202x100x1, 
+equ203x101x0, equ204x101x1, 
+equ205x102x0, equ206x102x1, 
+equ207x103x0, equ208x103x1, 
+equ209x104x0, equ210x104x1, 
+equ211x105x0, equ212x105x1, 
+equ213x106x0, equ214x106x1, 
+equ215x107x0, equ216x107x1, 
+equ217x108x0, equ218x108x1, 
+equ219x109x0, equ220x109x1, 
+equ221x110x0, equ222x110x1, 
+equ223x111x0, equ224x111x1, 
+equ225x112x0, equ226x112x1, 
+equ227x113x0, equ228x113x1, 
+equ229x114x0, equ230x114x1, 
+equ231x115x0, equ232x115x1, 
+equ233x116x0, equ234x116x1, 
+equ235x117x0, equ236x117x1, 
+equ237x118x0, equ238x118x1, 
+equ239x119x0, equ240x119x1, 
+equ241, equ242, equ243, equ244, equ245, equ246, obj;
+equ1x0x0.. -1.00 * T2 + 1.00 * T1 =L= -95.000000;
+equ2x0x1.. -1.00 * T1 + 1.00 * T2 =L= -85.000000;
+equ3x1x0.. -1.00 * T2 + 1.00 * T1 =L= -68.000000;
+equ4x1x1.. -1.00 * T1 + 1.00 * T2 =L= -51.000000;
+equ5x2x0.. -1.00 * T2 + 1.00 * T1 =L= -16.000000;
+equ6x2x1.. -1.00 * T1 + 1.00 * T2 =L= -16.000000;
+equ7x3x0.. -1.00 * T2 + 1.00 * T1 =L= -48.000000;
+equ8x3x1.. -1.00 * T1 + 1.00 * T2 =L= -17.000000;
+equ9x4x0.. -1.00 * T2 + 1.00 * T1 =L= -77.000000;
+equ10x4x1.. -1.00 * T1 + 1.00 * T2 =L= 10.000000;
+equ11x5x0.. -1.00 * T2 + 1.00 * T1 =L= -132.000000;
+equ12x5x1.. -1.00 * T1 + 1.00 * T2 =L= -33.000000;
+equ13x6x0.. -1.00 * T2 + 1.00 * T1 =L= -134.000000;
+equ14x6x1.. -1.00 * T1 + 1.00 * T2 =L= 36.000000;
+equ15x7x0.. -1.00 * T2 + 1.00 * T1 =L= -189.000000;
+equ16x7x1.. -1.00 * T1 + 1.00 * T2 =L= 100.000000;
+equ17x8x0.. -1.00 * T3 + 1.00 * T1 =L= -95.000000;
+equ18x8x1.. -1.00 * T1 + 1.00 * T3 =L= -74.000000;
+equ19x9x0.. -1.00 * T3 + 1.00 * T1 =L= -79.000000;
+equ20x9x1.. -1.00 * T1 + 1.00 * T3 =L= -10.000000;
+equ21x10x0.. -1.00 * T3 + 1.00 * T1 =L= -57.000000;
+equ22x10x1.. -1.00 * T1 + 1.00 * T3 =L= 37.000000;
+equ23x11x0.. -1.00 * T3 + 1.00 * T1 =L= -101.000000;
+equ24x11x1.. -1.00 * T1 + 1.00 * T3 =L= -20.000000;
+equ25x12x0.. -1.00 * T3 + 1.00 * T1 =L= -74.000000;
+equ26x12x1.. -1.00 * T1 + 1.00 * T3 =L= -29.000000;
+equ27x13x0.. -1.00 * T3 + 1.00 * T1 =L= -93.000000;
+equ28x13x1.. -1.00 * T1 + 1.00 * T3 =L= 2.000000;
+equ29x14x0.. -1.00 * T3 + 1.00 * T1 =L= -169.000000;
+equ30x14x1.. -1.00 * T1 + 1.00 * T3 =L= 61.000000;
+equ31x15x0.. -1.00 * T3 + 1.00 * T1 =L= -214.000000;
+equ32x15x1.. -1.00 * T1 + 1.00 * T3 =L= 102.000000;
+equ33x16x0.. -1.00 * T4 + 1.00 * T1 =L= -95.000000;
+equ34x16x1.. -1.00 * T1 + 1.00 * T4 =L= -84.000000;
+equ35x17x0.. -1.00 * T4 + 1.00 * T1 =L= -69.000000;
+equ36x17x1.. -1.00 * T1 + 1.00 * T4 =L= -30.000000;
+equ37x18x0.. -1.00 * T4 + 1.00 * T1 =L= -37.000000;
+equ38x18x1.. -1.00 * T1 + 1.00 * T4 =L= -4.000000;
+equ39x19x0.. -1.00 * T4 + 1.00 * T1 =L= -60.000000;
+equ40x19x1.. -1.00 * T1 + 1.00 * T4 =L= -75.000000;
+equ41x20x0.. -1.00 * T4 + 1.00 * T1 =L= -19.000000;
+equ42x20x1.. -1.00 * T1 + 1.00 * T4 =L= -46.000000;
+equ43x21x0.. -1.00 * T4 + 1.00 * T1 =L= -76.000000;
+equ44x21x1.. -1.00 * T1 + 1.00 * T4 =L= -90.000000;
+equ45x22x0.. -1.00 * T4 + 1.00 * T1 =L= -77.000000;
+equ46x22x1.. -1.00 * T1 + 1.00 * T4 =L= -55.000000;
+equ47x23x0.. -1.00 * T4 + 1.00 * T1 =L= -98.000000;
+equ48x23x1.. -1.00 * T1 + 1.00 * T4 =L= 8.000000;
+equ49x24x0.. -1.00 * T5 + 1.00 * T1 =L= -95.000000;
+equ50x24x1.. -1.00 * T1 + 1.00 * T5 =L= -40.000000;
+equ51x25x0.. -1.00 * T5 + 1.00 * T1 =L= -113.000000;
+equ52x25x1.. -1.00 * T1 + 1.00 * T5 =L= -1.000000;
+equ53x26x0.. -1.00 * T5 + 1.00 * T1 =L= -66.000000;
+equ54x26x1.. -1.00 * T1 + 1.00 * T5 =L= -18.000000;
+equ55x27x0.. -1.00 * T5 + 1.00 * T1 =L= -46.000000;
+equ56x27x1.. -1.00 * T1 + 1.00 * T5 =L= -39.000000;
+equ57x28x0.. -1.00 * T5 + 1.00 * T1 =L= -55.000000;
+equ58x28x1.. -1.00 * T1 + 1.00 * T5 =L= -75.000000;
+equ59x29x0.. -1.00 * T5 + 1.00 * T1 =L= -47.000000;
+equ60x29x1.. -1.00 * T1 + 1.00 * T5 =L= -47.000000;
+equ61x30x0.. -1.00 * T5 + 1.00 * T1 =L= -120.000000;
+equ62x30x1.. -1.00 * T1 + 1.00 * T5 =L= -14.000000;
+equ63x31x0.. -1.00 * T5 + 1.00 * T1 =L= -139.000000;
+equ64x31x1.. -1.00 * T1 + 1.00 * T5 =L= -5.000000;
+equ65x32x0.. -1.00 * T6 + 1.00 * T1 =L= -95.000000;
+equ66x32x1.. -1.00 * T1 + 1.00 * T6 =L= -71.000000;
+equ67x33x0.. -1.00 * T6 + 1.00 * T1 =L= -82.000000;
+equ68x33x1.. -1.00 * T1 + 1.00 * T6 =L= -48.000000;
+equ69x34x0.. -1.00 * T6 + 1.00 * T1 =L= -19.000000;
+equ70x34x1.. -1.00 * T1 + 1.00 * T6 =L= -26.000000;
+equ71x35x0.. -1.00 * T6 + 1.00 * T1 =L= -38.000000;
+equ72x35x1.. -1.00 * T1 + 1.00 * T6 =L= -67.000000;
+equ73x36x0.. -1.00 * T6 + 1.00 * T1 =L= -27.000000;
+equ74x36x1.. -1.00 * T1 + 1.00 * T6 =L= -18.000000;
+equ75x37x0.. -1.00 * T6 + 1.00 * T1 =L= -104.000000;
+equ76x37x1.. -1.00 * T1 + 1.00 * T6 =L= 19.000000;
+equ77x38x0.. -1.00 * T6 + 1.00 * T1 =L= -186.000000;
+equ78x38x1.. -1.00 * T1 + 1.00 * T6 =L= 32.000000;
+equ79x39x0.. -1.00 * T6 + 1.00 * T1 =L= -185.000000;
+equ80x39x1.. -1.00 * T1 + 1.00 * T6 =L= 85.000000;
+equ81x40x0.. -1.00 * T3 + 1.00 * T2 =L= -85.000000;
+equ82x40x1.. -1.00 * T2 + 1.00 * T3 =L= -74.000000;
+equ83x41x0.. -1.00 * T3 + 1.00 * T2 =L= -72.000000;
+equ84x41x1.. -1.00 * T2 + 1.00 * T3 =L= -20.000000;
+equ85x42x0.. -1.00 * T3 + 1.00 * T2 =L= -64.000000;
+equ86x42x1.. -1.00 * T2 + 1.00 * T3 =L= 30.000000;
+equ87x43x0.. -1.00 * T3 + 1.00 * T2 =L= -63.000000;
+equ88x43x1.. -1.00 * T2 + 1.00 * T3 =L= -13.000000;
+equ89x44x0.. -1.00 * T3 + 1.00 * T2 =L= -25.000000;
+equ90x44x1.. -1.00 * T2 + 1.00 * T3 =L= -67.000000;
+equ91x45x0.. -1.00 * T3 + 1.00 * T2 =L= -43.000000;
+equ92x45x1.. -1.00 * T2 + 1.00 * T3 =L= -47.000000;
+equ93x46x0.. -1.00 * T3 + 1.00 * T2 =L= -49.000000;
+equ94x46x1.. -1.00 * T2 + 1.00 * T3 =L= 11.000000;
+equ95x47x0.. -1.00 * T3 + 1.00 * T2 =L= -45.000000;
+equ96x47x1.. -1.00 * T2 + 1.00 * T3 =L= -18.000000;
+equ97x48x0.. -1.00 * T4 + 1.00 * T2 =L= -85.000000;
+equ98x48x1.. -1.00 * T2 + 1.00 * T4 =L= -84.000000;
+equ99x49x0.. -1.00 * T4 + 1.00 * T2 =L= -62.000000;
+equ100x49x1.. -1.00 * T2 + 1.00 * T4 =L= -40.000000;
+equ101x50x0.. -1.00 * T4 + 1.00 * T2 =L= -44.000000;
+equ102x50x1.. -1.00 * T2 + 1.00 * T4 =L= -11.000000;
+equ103x51x0.. -1.00 * T4 + 1.00 * T2 =L= -22.000000;
+equ104x51x1.. -1.00 * T2 + 1.00 * T4 =L= -68.000000;
+equ105x52x0.. -1.00 * T4 + 1.00 * T2 =L= 30.000000;
+equ106x52x1.. -1.00 * T2 + 1.00 * T4 =L= -84.000000;
+equ107x53x0.. -1.00 * T4 + 1.00 * T2 =L= -26.000000;
+equ108x53x1.. -1.00 * T2 + 1.00 * T4 =L= -139.000000;
+equ109x54x0.. -1.00 * T4 + 1.00 * T2 =L= 43.000000;
+equ110x54x1.. -1.00 * T2 + 1.00 * T4 =L= -105.000000;
+equ111x55x0.. -1.00 * T4 + 1.00 * T2 =L= 71.000000;
+equ112x55x1.. -1.00 * T2 + 1.00 * T4 =L= -112.000000;
+equ113x56x0.. -1.00 * T5 + 1.00 * T2 =L= -85.000000;
+equ114x56x1.. -1.00 * T2 + 1.00 * T5 =L= -40.000000;
+equ115x57x0.. -1.00 * T5 + 1.00 * T2 =L= -106.000000;
+equ116x57x1.. -1.00 * T2 + 1.00 * T5 =L= -11.000000;
+equ117x58x0.. -1.00 * T5 + 1.00 * T2 =L= -73.000000;
+equ118x58x1.. -1.00 * T2 + 1.00 * T5 =L= -25.000000;
+equ119x59x0.. -1.00 * T5 + 1.00 * T2 =L= -8.000000;
+equ120x59x1.. -1.00 * T2 + 1.00 * T5 =L= -32.000000;
+equ121x60x0.. -1.00 * T5 + 1.00 * T2 =L= -6.000000;
+equ122x60x1.. -1.00 * T2 + 1.00 * T5 =L= -113.000000;
+equ123x61x0.. -1.00 * T5 + 1.00 * T2 =L= 3.000000;
+equ124x61x1.. -1.00 * T2 + 1.00 * T5 =L= -96.000000;
+equ125x62x0.. -1.00 * T5 + 1.00 * T2 =L= 0.000000;
+equ126x62x1.. -1.00 * T2 + 1.00 * T5 =L= -64.000000;
+equ127x63x0.. -1.00 * T5 + 1.00 * T2 =L= 30.000000;
+equ128x63x1.. -1.00 * T2 + 1.00 * T5 =L= -125.000000;
+equ129x64x0.. -1.00 * T6 + 1.00 * T2 =L= -85.000000;
+equ130x64x1.. -1.00 * T2 + 1.00 * T6 =L= -71.000000;
+equ131x65x0.. -1.00 * T6 + 1.00 * T2 =L= -75.000000;
+equ132x65x1.. -1.00 * T2 + 1.00 * T6 =L= -58.000000;
+equ133x66x0.. -1.00 * T6 + 1.00 * T2 =L= -26.000000;
+equ134x66x1.. -1.00 * T2 + 1.00 * T6 =L= -33.000000;
+equ135x67x0.. -1.00 * T6 + 1.00 * T2 =L= 0.000000;
+equ136x67x1.. -1.00 * T2 + 1.00 * T6 =L= -60.000000;
+equ137x68x0.. -1.00 * T6 + 1.00 * T2 =L= 22.000000;
+equ138x68x1.. -1.00 * T2 + 1.00 * T6 =L= -56.000000;
+equ139x69x0.. -1.00 * T6 + 1.00 * T2 =L= -54.000000;
+equ140x69x1.. -1.00 * T2 + 1.00 * T6 =L= -30.000000;
+equ141x70x0.. -1.00 * T6 + 1.00 * T2 =L= -66.000000;
+equ142x70x1.. -1.00 * T2 + 1.00 * T6 =L= -18.000000;
+equ143x71x0.. -1.00 * T6 + 1.00 * T2 =L= -16.000000;
+equ144x71x1.. -1.00 * T2 + 1.00 * T6 =L= -35.000000;
+equ145x72x0.. -1.00 * T4 + 1.00 * T3 =L= -74.000000;
+equ146x72x1.. -1.00 * T3 + 1.00 * T4 =L= -84.000000;
+equ147x73x0.. -1.00 * T4 + 1.00 * T3 =L= -21.000000;
+equ148x73x1.. -1.00 * T3 + 1.00 * T4 =L= -51.000000;
+equ149x74x0.. -1.00 * T4 + 1.00 * T3 =L= 9.000000;
+equ150x74x1.. -1.00 * T3 + 1.00 * T4 =L= -52.000000;
+equ151x75x0.. -1.00 * T4 + 1.00 * T3 =L= -25.000000;
+equ152x75x1.. -1.00 * T3 + 1.00 * T4 =L= -121.000000;
+equ153x76x0.. -1.00 * T4 + 1.00 * T3 =L= -9.000000;
+equ154x76x1.. -1.00 * T3 + 1.00 * T4 =L= -81.000000;
+equ155x77x0.. -1.00 * T4 + 1.00 * T3 =L= 9.000000;
+equ156x77x1.. -1.00 * T3 + 1.00 * T4 =L= -100.000000;
+equ157x78x0.. -1.00 * T4 + 1.00 * T3 =L= 68.000000;
+equ158x78x1.. -1.00 * T3 + 1.00 * T4 =L= -140.000000;
+equ159x79x0.. -1.00 * T4 + 1.00 * T3 =L= 73.000000;
+equ160x79x1.. -1.00 * T3 + 1.00 * T4 =L= -137.000000;
+equ161x80x0.. -1.00 * T5 + 1.00 * T3 =L= -74.000000;
+equ162x80x1.. -1.00 * T3 + 1.00 * T5 =L= -40.000000;
+equ163x81x0.. -1.00 * T5 + 1.00 * T3 =L= -65.000000;
+equ164x81x1.. -1.00 * T3 + 1.00 * T5 =L= -22.000000;
+equ165x82x0.. -1.00 * T5 + 1.00 * T3 =L= -20.000000;
+equ166x82x1.. -1.00 * T3 + 1.00 * T5 =L= -66.000000;
+equ167x83x0.. -1.00 * T5 + 1.00 * T3 =L= -11.000000;
+equ168x83x1.. -1.00 * T3 + 1.00 * T5 =L= -85.000000;
+equ169x84x0.. -1.00 * T5 + 1.00 * T3 =L= -45.000000;
+equ170x84x1.. -1.00 * T3 + 1.00 * T5 =L= -110.000000;
+equ171x85x0.. -1.00 * T5 + 1.00 * T3 =L= 38.000000;
+equ172x85x1.. -1.00 * T3 + 1.00 * T5 =L= -57.000000;
+equ173x86x0.. -1.00 * T5 + 1.00 * T3 =L= 25.000000;
+equ174x86x1.. -1.00 * T3 + 1.00 * T5 =L= -99.000000;
+equ175x87x0.. -1.00 * T5 + 1.00 * T3 =L= 32.000000;
+equ176x87x1.. -1.00 * T3 + 1.00 * T5 =L= -150.000000;
+equ177x88x0.. -1.00 * T6 + 1.00 * T3 =L= -74.000000;
+equ178x88x1.. -1.00 * T3 + 1.00 * T6 =L= -71.000000;
+equ179x89x0.. -1.00 * T6 + 1.00 * T3 =L= -34.000000;
+equ180x89x1.. -1.00 * T3 + 1.00 * T6 =L= -69.000000;
+equ181x90x0.. -1.00 * T6 + 1.00 * T3 =L= 27.000000;
+equ182x90x1.. -1.00 * T3 + 1.00 * T6 =L= -74.000000;
+equ183x91x0.. -1.00 * T6 + 1.00 * T3 =L= -3.000000;
+equ184x91x1.. -1.00 * T3 + 1.00 * T6 =L= -113.000000;
+equ185x92x0.. -1.00 * T6 + 1.00 * T3 =L= -17.000000;
+equ186x92x1.. -1.00 * T3 + 1.00 * T6 =L= -53.000000;
+equ187x93x0.. -1.00 * T6 + 1.00 * T3 =L= -19.000000;
+equ188x93x1.. -1.00 * T3 + 1.00 * T6 =L= 9.000000;
+equ189x94x0.. -1.00 * T6 + 1.00 * T3 =L= -41.000000;
+equ190x94x1.. -1.00 * T3 + 1.00 * T6 =L= -53.000000;
+equ191x95x0.. -1.00 * T6 + 1.00 * T3 =L= -14.000000;
+equ192x95x1.. -1.00 * T3 + 1.00 * T6 =L= -60.000000;
+equ193x96x0.. -1.00 * T5 + 1.00 * T4 =L= -84.000000;
+equ194x96x1.. -1.00 * T4 + 1.00 * T5 =L= -40.000000;
+equ195x97x0.. -1.00 * T5 + 1.00 * T4 =L= -85.000000;
+equ196x97x1.. -1.00 * T4 + 1.00 * T5 =L= -12.000000;
+equ197x98x0.. -1.00 * T5 + 1.00 * T4 =L= -61.000000;
+equ198x98x1.. -1.00 * T4 + 1.00 * T5 =L= -46.000000;
+equ199x99x0.. -1.00 * T5 + 1.00 * T4 =L= -66.000000;
+equ200x99x1.. -1.00 * T4 + 1.00 * T5 =L= -44.000000;
+equ201x100x0.. -1.00 * T5 + 1.00 * T4 =L= -62.000000;
+equ202x100x1.. -1.00 * T4 + 1.00 * T5 =L= -55.000000;
+equ203x101x0.. -1.00 * T5 + 1.00 * T4 =L= -54.000000;
+equ204x101x1.. -1.00 * T4 + 1.00 * T5 =L= -40.000000;
+equ205x102x0.. -1.00 * T5 + 1.00 * T4 =L= -91.000000;
+equ206x102x1.. -1.00 * T4 + 1.00 * T5 =L= -7.000000;
+equ207x103x0.. -1.00 * T5 + 1.00 * T4 =L= -62.000000;
+equ208x103x1.. -1.00 * T4 + 1.00 * T5 =L= -34.000000;
+equ209x104x0.. -1.00 * T6 + 1.00 * T4 =L= -84.000000;
+equ210x104x1.. -1.00 * T4 + 1.00 * T6 =L= -71.000000;
+equ211x105x0.. -1.00 * T6 + 1.00 * T4 =L= -54.000000;
+equ212x105x1.. -1.00 * T4 + 1.00 * T6 =L= -59.000000;
+equ213x106x0.. -1.00 * T6 + 1.00 * T4 =L= -14.000000;
+equ214x106x1.. -1.00 * T4 + 1.00 * T6 =L= -54.000000;
+equ215x107x0.. -1.00 * T6 + 1.00 * T4 =L= -58.000000;
+equ216x107x1.. -1.00 * T4 + 1.00 * T6 =L= -72.000000;
+equ217x108x0.. -1.00 * T6 + 1.00 * T4 =L= -34.000000;
+equ218x108x1.. -1.00 * T4 + 1.00 * T6 =L= 2.000000;
+equ219x109x0.. -1.00 * T6 + 1.00 * T4 =L= -111.000000;
+equ220x109x1.. -1.00 * T4 + 1.00 * T6 =L= 26.000000;
+equ221x110x0.. -1.00 * T6 + 1.00 * T4 =L= -157.000000;
+equ222x110x1.. -1.00 * T4 + 1.00 * T6 =L= 39.000000;
+equ223x111x0.. -1.00 * T6 + 1.00 * T4 =L= -108.000000;
+equ224x111x1.. -1.00 * T4 + 1.00 * T6 =L= 56.000000;
+equ225x112x0.. -1.00 * T6 + 1.00 * T5 =L= -40.000000;
+equ226x112x1.. -1.00 * T5 + 1.00 * T6 =L= -71.000000;
+equ227x113x0.. -1.00 * T6 + 1.00 * T5 =L= -25.000000;
+equ228x113x1.. -1.00 * T5 + 1.00 * T6 =L= -103.000000;
+equ229x114x0.. -1.00 * T6 + 1.00 * T5 =L= -28.000000;
+equ230x114x1.. -1.00 * T5 + 1.00 * T6 =L= -83.000000;
+equ231x115x0.. -1.00 * T6 + 1.00 * T5 =L= -22.000000;
+equ232x115x1.. -1.00 * T5 + 1.00 * T6 =L= -58.000000;
+equ233x116x0.. -1.00 * T6 + 1.00 * T5 =L= -63.000000;
+equ234x116x1.. -1.00 * T5 + 1.00 * T6 =L= -34.000000;
+equ235x117x0.. -1.00 * T6 + 1.00 * T5 =L= -68.000000;
+equ236x117x1.. -1.00 * T5 + 1.00 * T6 =L= 55.000000;
+equ237x118x0.. -1.00 * T6 + 1.00 * T5 =L= -116.000000;
+equ238x118x1.. -1.00 * T5 + 1.00 * T6 =L= -4.000000;
+equ239x119x0.. -1.00 * T6 + 1.00 * T5 =L= -121.000000;
+equ240x119x1.. -1.00 * T5 + 1.00 * T6 =L= 15.000000;
+equ241.. -1.00 * Z + 1.00 * T1 =L= -492.000000;
+equ242.. -1.00 * Z + 1.00 * T2 =L= -323.000000;
+equ243.. -1.00 * Z + 1.00 * T3 =L= -321.000000;
+equ244.. -1.00 * Z + 1.00 * T4 =L= -415.000000;
+equ245.. -1.00 * Z + 1.00 * T5 =L= -428.000000;
+equ246.. -1.00 * Z + 1.00 * T6 =L= -338.000000;
+T1.lo=0.000;
+T2.lo=0.000;
+T3.lo=0.000;
+T4.lo=0.000;
+T5.lo=0.000;
+T6.lo=0.000;
+Z.lo=0.000;
+obj.. P =E= -1.0 * Z;
+$onecho > "%lm.info%"
+default bigm
+disjunction * equ1x0x0 else equ2x0x1
+disjunction * equ3x1x0 else equ4x1x1
+disjunction * equ5x2x0 else equ6x2x1
+disjunction * equ7x3x0 else equ8x3x1
+disjunction * equ9x4x0 else equ10x4x1
+disjunction * equ11x5x0 else equ12x5x1
+disjunction * equ13x6x0 else equ14x6x1
+disjunction * equ15x7x0 else equ16x7x1
+disjunction * equ17x8x0 else equ18x8x1
+disjunction * equ19x9x0 else equ20x9x1
+disjunction * equ21x10x0 else equ22x10x1
+disjunction * equ23x11x0 else equ24x11x1
+disjunction * equ25x12x0 else equ26x12x1
+disjunction * equ27x13x0 else equ28x13x1
+disjunction * equ29x14x0 else equ30x14x1
+disjunction * equ31x15x0 else equ32x15x1
+disjunction * equ33x16x0 else equ34x16x1
+disjunction * equ35x17x0 else equ36x17x1
+disjunction * equ37x18x0 else equ38x18x1
+disjunction * equ39x19x0 else equ40x19x1
+disjunction * equ41x20x0 else equ42x20x1
+disjunction * equ43x21x0 else equ44x21x1
+disjunction * equ45x22x0 else equ46x22x1
+disjunction * equ47x23x0 else equ48x23x1
+disjunction * equ49x24x0 else equ50x24x1
+disjunction * equ51x25x0 else equ52x25x1
+disjunction * equ53x26x0 else equ54x26x1
+disjunction * equ55x27x0 else equ56x27x1
+disjunction * equ57x28x0 else equ58x28x1
+disjunction * equ59x29x0 else equ60x29x1
+disjunction * equ61x30x0 else equ62x30x1
+disjunction * equ63x31x0 else equ64x31x1
+disjunction * equ65x32x0 else equ66x32x1
+disjunction * equ67x33x0 else equ68x33x1
+disjunction * equ69x34x0 else equ70x34x1
+disjunction * equ71x35x0 else equ72x35x1
+disjunction * equ73x36x0 else equ74x36x1
+disjunction * equ75x37x0 else equ76x37x1
+disjunction * equ77x38x0 else equ78x38x1
+disjunction * equ79x39x0 else equ80x39x1
+disjunction * equ81x40x0 else equ82x40x1
+disjunction * equ83x41x0 else equ84x41x1
+disjunction * equ85x42x0 else equ86x42x1
+disjunction * equ87x43x0 else equ88x43x1
+disjunction * equ89x44x0 else equ90x44x1
+disjunction * equ91x45x0 else equ92x45x1
+disjunction * equ93x46x0 else equ94x46x1
+disjunction * equ95x47x0 else equ96x47x1
+disjunction * equ97x48x0 else equ98x48x1
+disjunction * equ99x49x0 else equ100x49x1
+disjunction * equ101x50x0 else equ102x50x1
+disjunction * equ103x51x0 else equ104x51x1
+disjunction * equ105x52x0 else equ106x52x1
+disjunction * equ107x53x0 else equ108x53x1
+disjunction * equ109x54x0 else equ110x54x1
+disjunction * equ111x55x0 else equ112x55x1
+disjunction * equ113x56x0 else equ114x56x1
+disjunction * equ115x57x0 else equ116x57x1
+disjunction * equ117x58x0 else equ118x58x1
+disjunction * equ119x59x0 else equ120x59x1
+disjunction * equ121x60x0 else equ122x60x1
+disjunction * equ123x61x0 else equ124x61x1
+disjunction * equ125x62x0 else equ126x62x1
+disjunction * equ127x63x0 else equ128x63x1
+disjunction * equ129x64x0 else equ130x64x1
+disjunction * equ131x65x0 else equ132x65x1
+disjunction * equ133x66x0 else equ134x66x1
+disjunction * equ135x67x0 else equ136x67x1
+disjunction * equ137x68x0 else equ138x68x1
+disjunction * equ139x69x0 else equ140x69x1
+disjunction * equ141x70x0 else equ142x70x1
+disjunction * equ143x71x0 else equ144x71x1
+disjunction * equ145x72x0 else equ146x72x1
+disjunction * equ147x73x0 else equ148x73x1
+disjunction * equ149x74x0 else equ150x74x1
+disjunction * equ151x75x0 else equ152x75x1
+disjunction * equ153x76x0 else equ154x76x1
+disjunction * equ155x77x0 else equ156x77x1
+disjunction * equ157x78x0 else equ158x78x1
+disjunction * equ159x79x0 else equ160x79x1
+disjunction * equ161x80x0 else equ162x80x1
+disjunction * equ163x81x0 else equ164x81x1
+disjunction * equ165x82x0 else equ166x82x1
+disjunction * equ167x83x0 else equ168x83x1
+disjunction * equ169x84x0 else equ170x84x1
+disjunction * equ171x85x0 else equ172x85x1
+disjunction * equ173x86x0 else equ174x86x1
+disjunction * equ175x87x0 else equ176x87x1
+disjunction * equ177x88x0 else equ178x88x1
+disjunction * equ179x89x0 else equ180x89x1
+disjunction * equ181x90x0 else equ182x90x1
+disjunction * equ183x91x0 else equ184x91x1
+disjunction * equ185x92x0 else equ186x92x1
+disjunction * equ187x93x0 else equ188x93x1
+disjunction * equ189x94x0 else equ190x94x1
+disjunction * equ191x95x0 else equ192x95x1
+disjunction * equ193x96x0 else equ194x96x1
+disjunction * equ195x97x0 else equ196x97x1
+disjunction * equ197x98x0 else equ198x98x1
+disjunction * equ199x99x0 else equ200x99x1
+disjunction * equ201x100x0 else equ202x100x1
+disjunction * equ203x101x0 else equ204x101x1
+disjunction * equ205x102x0 else equ206x102x1
+disjunction * equ207x103x0 else equ208x103x1
+disjunction * equ209x104x0 else equ210x104x1
+disjunction * equ211x105x0 else equ212x105x1
+disjunction * equ213x106x0 else equ214x106x1
+disjunction * equ215x107x0 else equ216x107x1
+disjunction * equ217x108x0 else equ218x108x1
+disjunction * equ219x109x0 else equ220x109x1
+disjunction * equ221x110x0 else equ222x110x1
+disjunction * equ223x111x0 else equ224x111x1
+disjunction * equ225x112x0 else equ226x112x1
+disjunction * equ227x113x0 else equ228x113x1
+disjunction * equ229x114x0 else equ230x114x1
+disjunction * equ231x115x0 else equ232x115x1
+disjunction * equ233x116x0 else equ234x116x1
+disjunction * equ235x117x0 else equ236x117x1
+disjunction * equ237x118x0 else equ238x118x1
+disjunction * equ239x119x0 else equ240x119x1
+$offecho
+MODEL disjunct / ALL / ;
+OPTION EMP = logmip;
+OPTION OPTCR = 0.0;
+SOLVE disjunct MAXIMIZING P USING EMP;
+
+Scalar tcomp, texec, telapsed;
+tcomp = TimeComp;
+texec = TimeExec;
+telapsed = TimeElapsed;
+Display tcomp, texec, telapsed;
