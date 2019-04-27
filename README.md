@@ -1,5 +1,5 @@
 # LOPDC-Benchmarks
-Benchmarks 4 linear optimization problem with disjunctive constraints.  
+Benchmarks for the linear optimization problem with disjunctive constraints.  
 
 For typical problems are listed. 
 (1) Zero-wait job-shop scheduling. 
